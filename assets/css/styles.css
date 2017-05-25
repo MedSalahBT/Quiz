@@ -1,0 +1,115 @@
+
+body {
+	
+	    background: url(../images/bg.jpg) no-repeat center center fixed;
+    	-webkit-background-size: cover;
+    	-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+
+.login-form {
+    font: 16px/2em Lato, serif;
+	margin: 100px auto;
+	max-width: 400px;
+}
+
+
+.sign-up-form {
+    font: 16px/2em Lato, serif;
+	margin: 100px auto;
+	max-width: 400px;
+}
+
+
+.share-form
+ {
+    font: 16px/2em Lato, serif;
+	margin: 100px auto;
+	max-width: 400px;
+	text-align: center;
+
+	
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+	font: 36px/2em Lato, serif;
+    padding: 25px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+form {
+	color: #5d5d5d;
+	
+	background: #FFFFFF;
+	
+	padding: 26px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+	form img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 35px;
+	}
+	form input,
+	form button {
+		font-size: 18px;
+		margin: 16px 0;
+	}
+	form > div {
+		text-align: center;
+	}
+	
+.form-links {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 50px;
+}
+
+.form-links a {
+		color: #fff;
+	}
+
+
+.content{
+	margin-top:48px;
+	margin-left:auto;
+	margin-right:auto;
+	width:780px;
+	border:#333 1px solid;
+	border-radius:12px;
+	-moz-border-radius:12px;
+	padding:12px;
+	display:block;
+	background:transparent ; 
+}
+
+
+.header-contentt a {
+
+	
+	 margin-top: 1px;
+     margin-right: 2px;
+     position:absolute;
+     top:0;
+     right:0;
+	
+	
+	float: left;
+	display: block;
+	padding: 3px 12px;	
+	color: #FFF;
+	background-color: #1370DB;
+	text-decoration: none;
+	border-right: 1px solid #272727;
+}
