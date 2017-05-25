@@ -1,5 +1,7 @@
-B# Quiz
+Quiz Game.
+
 A Simple Quiz written in PHP
+
 Main Features:
 - Add a new user.
 - Login as an Admin to add new questions.
