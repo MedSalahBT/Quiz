@@ -165,7 +165,7 @@
 				$contenu .= '<li><h3> - '.$data['Questions'].'  ('.$q.'/'.$nbQuestion['NB'].')   --  '.$data['Note'].' Point(s)  --</h3>';
 				$reponds =  $mysqli->query('SELECT * FROM Reponse WHERE Id_Question = ' . $data['Id']);
 				while($dataR = mysqli_fetch_array($reponds)){
-					$contenu .= '<input id="'.$dataR['Id'].';" name="check[]"  type="radio">'.$dataR['reponse'].'<br/>';
+					$contenu .= '<input id="'.$dataR['Id'].';" name="check[]"  type="checkbox">'.$dataR['reponse'].'<br/>';
 				}
 				$contenu .= '</li>';
 			}

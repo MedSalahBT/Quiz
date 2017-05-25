@@ -64,12 +64,12 @@ if($_SESSION['newTry'] == 1){
 	$headers .='Content-Type: text/html; charset="iso-8859-1"'."\n"; 
 	$headers .='Content-Transfer-Encoding: 8bit';
 
-	$mail = mail($_SESSION['email'], 'QCM', 'Résultat de QCM :' . $rst, $headers);
+	$mail = mail($_SESSION['email'], 'Quiz', 'Quiz results :' . $rst, $headers);
 
 	if(!$mail)
 		echo "<p id='Erreur'>Mailer Error</p>";
 	else
-		echo "<p style='color:#009900'>Le Résultat a été au envoyé au ".$_SESSION['email']."</p>";
+		echo "<p style='color:#009900'>The results has been sent to ".$_SESSION['email']."</p>";
 	echo '</fieldset>';
 	
 	

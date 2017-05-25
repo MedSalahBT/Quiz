@@ -10,13 +10,13 @@
  *****************************/
 /* change the ID to match your slider */
 #QUIZ{
-	width: 900px;
-	height: 350px;
+	width: 1000px;
+	height: 250px;
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
 	overflow-y: auto;
 	overflow-x: hidden;
-	margin: 25px;
+	margin: 20px;
 }
 /* Opera width restriction */
 .anythingBase { max-width: 32766px; }

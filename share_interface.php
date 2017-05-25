@@ -38,7 +38,7 @@
 					<button type="button" onclick="document.location.href='play.php';"  class="btn btn-primary">Let's get started</button>
 					&nbsp;
 					
-					<button type="button" class="btn btn-warning  onclick="document.location.href='index.php';" ">Disconnect</button>
+					<button type="button"   onclick="document.location.href='index.php';" class="btn btn-warning" >Disconnect</button>
 					
 					
 					&nbsp;
