@@ -10,11 +10,7 @@
  *****************************/
 /* change the ID to match your slider */
 #QUIZ{
-<<<<<<< HEAD
 	width: 1000px;
-=======
-	width: 900px;
->>>>>>> d19d82aa2d6bf215f52851baaf7ba585b60735e4
 	height: 250px;
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
